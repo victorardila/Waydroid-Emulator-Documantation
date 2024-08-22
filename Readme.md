@@ -12,3 +12,7 @@
 ```diff
 waydroid session start
 ```
+### - DEtener el servicio de waydroid
+```diff
+waydroid session stop
+```
