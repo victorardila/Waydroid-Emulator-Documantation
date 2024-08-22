@@ -32,11 +32,15 @@ output=HDMI-A-1
 command=weston-terminal
 ```
 
-### - Ejecutar el servicio de waydroid
+### - Para iniciar el contenedor de Waydroid para configurar el entorno.
+```diff
+sudo waydroid init
+```
+### - Para ejecutar el servicio de waydroid
 ```diff
 waydroid session start
 ```
-### - DEtener el servicio de waydroid
+### - Para detener el servicio de waydroid
 ```diff
 waydroid session stop
 ```
