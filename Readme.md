@@ -4,3 +4,7 @@
   <img src="https://github.com/user-attachments/assets/f51f1f07-29d8-41c8-8f55-dd4649386f95" alt="waydroid_logo" />
 </p>
 
+## Instalacion en Linux
+
+## `Ubuntu linux y cualquiera de sus derivados`
+
