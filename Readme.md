@@ -52,3 +52,7 @@ waydroid session start
 ```diff
 waydroid session stop
 ```
+### Correr el compositor
+```diff
+weston
+```
