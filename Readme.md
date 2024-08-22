@@ -5,7 +5,7 @@
 </p>
 
 ## Instalacion en Linux
-### `Url del sitio oficial: https://docs.waydro.id/usage/install-on-desktops`
+### `Url del sitio oficial:` https://docs.waydro.id/usage/install-on-desktops
 ## `Ubuntu linux y cualquiera de sus derivados`
 Para instlar y ejecutar de forma grafica waydroid es decir el emulador debe descargar un compositor de ventanas wayland para este caso se usara `Weston`. La lista de comandos para instalar waydroid es esta:
 
