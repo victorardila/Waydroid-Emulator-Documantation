@@ -8,3 +8,6 @@
 
 ## `Ubuntu linux y cualquiera de sus derivados`
 
+```sh
+waydroid session start
+```
