@@ -52,7 +52,12 @@ waydroid session start
 ```diff
 waydroid session stop
 ```
-### Correr el compositor
+### Correr la ventana del compositor
 ```diff
 weston
+```
+### Mostrar waydroid en el compositor weston
+Para ello una vez dentro de la ventana weston debes abrir la consola dentro de weston y ejecutar el siguiente comando:
+```diff
+waydroid show-full-ui
 ```
