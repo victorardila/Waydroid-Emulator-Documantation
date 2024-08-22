@@ -31,7 +31,11 @@ output=HDMI-A-1
 # Set the default shell
 command=weston-terminal
 ```
-
+Weston debe estar configurado para utilizar la variable de entorno WAYLAND_DISPLAY. Esta variable indica a los clientes de Wayland (como WayDroid) dónde deben comunicarse.
+### Abre una nueva terminal y configura la variable:
+```diff
+export WAYLAND_DISPLAY=wayland-0
+```
 ### - Para iniciar el contenedor de Waydroid para configurar el entorno.
 ```diff
 sudo waydroid init
