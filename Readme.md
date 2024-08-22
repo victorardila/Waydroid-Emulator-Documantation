@@ -10,6 +10,11 @@
 Para ejecutar de forma grafica waydroid es decir el emulador debe descargar un compositor de ventanas wayland para este caso se usara `Weston` lo puedes instalar con el siguiente comando:
 
 ```diff
+# instalacion de waydroid
+sudo apt install curl ca-certificates -y
+curl https://repo.waydro.id | sudo bash
+sudo apt install waydroid -y
+# instalacion del compositor
 sudo apt install weston
 ```
 
