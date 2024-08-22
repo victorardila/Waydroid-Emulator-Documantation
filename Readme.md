@@ -36,6 +36,10 @@ command=weston-terminal
 ```diff
 sudo waydroid init
 ```
+### - Para iniciar el servicio de Waydroid.
+```diff
+sudo systemctl start waydroid-container
+```
 ### - Para ejecutar el servicio de waydroid
 ```diff
 waydroid session start
