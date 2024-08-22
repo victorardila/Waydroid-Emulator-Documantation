@@ -8,7 +8,7 @@
 
 ## `Ubuntu linux y cualquiera de sus derivados`
 
-### Ejecutar el servicio de waydroid
+### - Ejecutar el servicio de waydroid
 ```diff
 waydroid session start
 ```
