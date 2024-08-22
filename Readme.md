@@ -8,10 +8,7 @@
 
 ## `Ubuntu linux y cualquiera de sus derivados`
 
-```sh
-# Este es un comentario normal
-echo -e "\033[1;31mEste es un comentario resaltado en rojo\033[0m"
-
-# Luego puedes continuar con tu comando
+### Ejecutar el servicio de waydroid
+```diff
 waydroid session start
 ```
