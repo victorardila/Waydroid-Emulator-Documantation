@@ -36,6 +36,11 @@ Weston debe estar configurado para utilizar la variable de entorno WAYLAND_DISPL
 ```diff
 export WAYLAND_DISPLAY=wayland-0
 ```
+### `Nota`
+Para evitar en un futuro que aparezcan mensajes como `Unknown parameter: ?2004` ejecuta el siguiente comando en tu terminal antes de iniciar Weston para deshabilitar el modo de bracketed paste:
+```diff
+echo -e "\e[?2004l"
+```
 ### Correr la ventana del compositor
 ```diff
 weston
