@@ -36,6 +36,11 @@ Weston debe estar configurado para utilizar la variable de entorno WAYLAND_DISPL
 ```diff
 export WAYLAND_DISPLAY=wayland-0
 ```
+### Correr la ventana del compositor
+```diff
+weston
+```
+### Decidir que realizar con waydroid
 ### - Para iniciar el contenedor de Waydroid para configurar el entorno.
 ```diff
 sudo waydroid init
@@ -51,10 +56,6 @@ waydroid session start
 ### - Para detener el servicio de waydroid
 ```diff
 waydroid session stop
-```
-### Correr la ventana del compositor
-```diff
-weston
 ```
 ### Mostrar waydroid en el compositor weston
 Para ello una vez dentro de la ventana weston debes abrir la consola dentro de weston y ejecutar el siguiente comando:
