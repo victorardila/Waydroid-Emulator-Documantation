@@ -16,6 +16,20 @@ curl https://repo.waydro.id | sudo bash
 sudo apt install waydroid -y
 # instalacion del compositor
 sudo apt install weston
+# configuracion de weston
+mkdir -p ~/.config/weston
+nano ~/.config/weston/weston.ini
+```
+Esto abrira una ventana de configuracion del sistema. Alli pegaras lo siguiente:
+
+```diff
+[core]
+# Set the output name
+output=HDMI-A-1
+
+[shell]
+# Set the default shell
+command=weston-terminal
 ```
 
 ### - Ejecutar el servicio de waydroid
