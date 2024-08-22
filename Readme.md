@@ -7,7 +7,7 @@
 ## Instalacion en Linux
 
 ## `Ubuntu linux y cualquiera de sus derivados`
-Para ejecutar de forma grafica waydroid es decir el emulador debe descargar un compositor de ventanas wayland para este caso se usara `Weston` lo puedes instalar con el siguiente comando:
+Para instlar y ejecutar de forma grafica waydroid es decir el emulador debe descargar un compositor de ventanas wayland para este caso se usara `Weston`. La lista de comandos para instalar waydroid es esta:
 
 ```diff
 # instalacion de waydroid
